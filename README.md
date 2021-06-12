@@ -20,7 +20,7 @@ The number of successful campaigns increase if the goal amount is less. The camp
 ### Challenges and Difficulties Encountered
 
 The challenge was to find average donations for each campaign, so we had to divide the pledged amount by number of backers, but since some campaigns did not have any backers, there was an error which was fixed by using IFERROR formula, which returns value such as ‘0’ if the main formula attempts to divide by 0.
--Reference provided to the excel sheet through the link below.
+-Reference provided to the excel sheet through the following link.
 [Kickstarter_Challenge.xlsx](https://github.com/Ayesha-da/kickstarter-analysis/files/6641451/Kickstarter_Challenge.xlsx)
 
 ## Results 
@@ -36,9 +36,10 @@ The challenge was to find average donations for each campaign, so we had to divi
 
 - What are some limitations of this dataset?
 
-  *The data does not specifically show how and why certain campaigns are successful even though they have larger goal amount.  
+  *The data does not specifically show how and why certain campaigns are successful even though they have larger goal amount.                    
+  
   *The data is missing crucial information such as recent trends.
 
 - What are some other possible tables and/or graphs that we could create?
 
-  *We can create a chart based on percentage of successful and failed campaign based on country and subcategories to understand if people in certain regions shows more interest towards particular subcategory.
+  *We can create a chart showing percentage of successful and failed campaign based on country and subcategories to understand if people in certain regions shows more interest towards particular subcategory.
