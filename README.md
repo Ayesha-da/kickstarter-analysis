@@ -20,6 +20,7 @@ The number of successful campaigns increase if the goal amount is less. The camp
 ### Challenges and Difficulties Encountered
 
 The challenge was to find average donations for each campaign, so we had to divide the pledged amount by number of backers, but since some campaigns did not have any backers, there was an error which was fixed by using IFERROR formula, which returns value such as ‘0’ if the main formula attempts to divide by 0.
+-Reference provided to the excel sheet through the link below.
 [Kickstarter_Challenge.xlsx](https://github.com/Ayesha-da/kickstarter-analysis/files/6641451/Kickstarter_Challenge.xlsx)
 
 ## Results 
